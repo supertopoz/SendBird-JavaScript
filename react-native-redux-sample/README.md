@@ -17,7 +17,7 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 
         npm install -g react-native-cli
 
-3. Open Android Studio - "Open an existing Android Studio project" - navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird`.
+3. Open Android Studio - "Open an existing Android Studio project"  navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird`.
 
 2. Open the terminal i Android Studio(bottom left) and install the npm packages.
 
