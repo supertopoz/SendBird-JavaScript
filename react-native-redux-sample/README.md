@@ -73,7 +73,7 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 * Navigate to ``SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird/ios``
 * Open the folder
 
-#### 3. Make sure you xcode command line tools installed
+#### 3. Make sure you xcode command line tools are installed
 * In Xcode "File" - "Preferences" - "Locations" - select the latest "Command Line Tools"
 
 #### 4. Open iPhone emulator and install SendBird React-Native application
