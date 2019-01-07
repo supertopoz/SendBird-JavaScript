@@ -89,9 +89,9 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 
 # Connect your own SendBird Application
 
-* By default this SendBird application connects to a public sample application
+Note: By default this SendBird application connects to a public sample application
 
-#### 1. Dashboard setup
+#### 1. SendBird Dashboard setup
 
 * To connect your own SendBird application go to the [SendBird dashboard.](https://dashboard.sendbird.com/)
 * Open an existing application or create a new one
@@ -99,19 +99,21 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 
 #### 2. Application setup
 
-#### 3. Android Studio - change application ID
+#### 3. Change application ID
+
+##### Android
 
 * In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
 * Replace the default "APP_ID" with your SendBird Application ID
 * Save the file
 
-#### Xcode - change application ID
+##### Xcode - change application ID
 
 * In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
 * Replace the default "APP_ID" with your SendBird Application ID
 * Save the file
 
-### Apply connection changes
+#### 4. Apply connection changes
 
 * If the Metro Bundler is running terminate it.
 * Start the application again        
@@ -119,10 +121,10 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
   - In the regular terminal for Xcode navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird/ios`  and run ``react-native run-ios``
 
 
-#### Add a new user using SendBird React-Native App
+#### 5. Add a new user using SendBird React-Native App
 * Open the SendBird application in the emulated Android or ios device and create a new user
 
-#### View the new user on the SendBird dashboard
+#### 6. View the new user on the SendBird dashboard
 * Navigate to the SendBird [dashboard](https://dashboard.sendbird.com/) click on "users" to view the newly create user
 
         
