@@ -2,14 +2,23 @@
 
 SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/SendBird-SDK-JavaScript).
 
-## Prerequisite
+## Prerequisites
+
+###Global
 
 - [Node](https://nodejs.org/en/)
 - [NPM](https://www.npmjs.com/)
+- [Java SE Development Kit 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+###Android
+
+- [Android Studio](https://developer.android.com/studio/) (+Android SDK/Google API)
+
+###IOS
+
 - [Cocoapods](https://cocoapods.org/)
 - [XCode](https://developer.apple.com/xcode)
 - [XCode Command Line Tools](https://facebook.github.io/react-native/docs/getting-started.html#xcode)
-- [Android Studio](https://developer.android.com/studio/) (+Android SDK/Google API)
 
 ## Run the sample - Android Studio
 
