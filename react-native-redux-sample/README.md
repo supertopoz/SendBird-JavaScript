@@ -58,41 +58,72 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 
         react-native run-android
         
-#### 7. Connect your own SendBird Application
+
+### ios app with xcode
+
+#### 1. Install pod dependencies
+* Open a terminal in `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird/ios` and run the command:
+
+        pod install
+        
+* If you don't have cocopods you can install it globally with ``sudo gem install -n /usr/local/bin cocoapods``
+
+#### 2. Open project in Xcode
+* Open Xcode and click open another project...
+* Navigate to ``SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird/ios``
+* Open the folder
+
+#### 3. Make sure you xcode command line tools installed
+* In Xcode "File" - "Preferences" - "Locations" - select the latest "Command Line Tools"
+
+#### 4. Open iPhone emulator and install SendBird React-Native application
+* Open a terminal
+* Navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird'
+* Run 
+        react-native run-ios
+        
+* Wait for the SendBird Application to start
+
+
+
+
+# Connect your own SendBird Application
+
 * By default this SendBird application connects to a public sample application
+
+#### 1. Dashboard setup
+
 * To connect your own SendBird application go to the [SendBird dashboard.](https://dashboard.sendbird.com/)
 * Open an existing application or create a new one
 * From the SendBird dashboard copy the "App ID"
+
+#### 2. Application setup
+
+#### 3. Android Studio - change application ID
+
 * In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
 * Replace the default "APP_ID" with your SendBird Application ID
 * Save the file
-* Terminate the Metro Bundler
-* Start the application again
-          
-          react-native run-android
-          
-#### 12. Add a new user
-* Open the SendBird application on the emulated Android device and create a new user
 
-#### 13. View the new user on the SendBird dashboard
+#### Xcode - change application ID
+
+* In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
+* Replace the default "APP_ID" with your SendBird Application ID
+* Save the file
+
+### Apply connection changes
+
+* If the Metro Bundler is running terminate it.
+* Start the application again        
+  - In Android Studio terminal ``react-native run-android``
+  - In the regular terminal for Xcode navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird/ios`  and run ``react-native run-ios``
+
+
+#### Add a new user using SendBird React-Native App
+* Open the SendBird application in the emulated Android or ios device and create a new user
+
+#### View the new user on the SendBird dashboard
 * Navigate to the SendBird [dashboard](https://dashboard.sendbird.com/) click on "users" to view the newly create user
 
+        
 
-
-## Run the sample - IOS
-
-3. (iOS only) Pod install.
-
-        cd ios
-        pod install
-
-4. (iOS only) Add library in XCode
-
-- Open XCode and load workspace
-- Right click to 'Libraries' > Add Files to "Project Name" > select `node_modules/react-native/Libraries/PushNotificationIOS/RCTPushNotification.xcodeproj`
-- Project Settings > Build Phases > Link Binary With Libraries > Add `libRCTPushNotification.a`
-
-5. Run the sample. Before starting, you should launch device amulator (or actual device) to run the sample in Android. This sample is not available for real device in iOS due to Apple Development Policy. In order to run React Native sample in real device, follow [React Native official guide](https://facebook.github.io/react-native/docs/running-on-device.html) for your own setup.
-
-        react-native run-android
-        react-native run-ios
