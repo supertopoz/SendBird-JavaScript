@@ -17,16 +17,16 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 
         npm install -g react-native-cli
 
-3. Open Android Studio `Open an existing Android Studio project` and navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird`.
+3. Open Android Studio click "Open an existing Android Studio project" and navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird`.
 
 2. Open the terminal in Android Studio(bottom left) and install the npm packages.
 
         npm install
         
 
-3. Start a [new emulated device.](https://developer.android.com/studio/run/managing-avds) Whichever device you create use, set it up with Oreo 27 as per React Native's requirements (this code was tested to work on a "Galaxy Nexus").
+3. Start a [new emulated device.](https://developer.android.com/studio/run/managing-avds) Whichever device you create, set it up with Oreo 27 as per React Native's requirements (this code was tested to work on a "Galaxy Nexus").
 
-5. Complete emulator set up: 
+5. Complete the emulator set up: 
 * After the emulated device first starts open the devices "settings" and click "FINISH SETUP".
 * Click "START" on the "Finish Android SDK built for..." screen - follow the set up process including logging in.
 * After setup completes on the device [start developer mode.](https://developer.android.com/studio/debug/dev-options) 
