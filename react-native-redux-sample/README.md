@@ -48,7 +48,7 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 * Set the device up with Oreo 27 as per React Native's requirements.
 * This code was tested to work with a "Galaxy Nexus" device.
 
-####  5. Complete device activation for development 
+####  5. Complete emulated Android device activation for development 
 * Go to emulated device's "settings" and click "FINISH SETUP". 
 * Carefully complete the set up and don't forget to log in.
 * On the emulated device [start developer mode.](https://developer.android.com/studio/debug/dev-options) 
@@ -59,10 +59,10 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
         react-native run-android
         
 #### 7. Connect your own SendBird Application
-* By default this SendBird application connects to a sample application
+* By default this SendBird application connects to a public sample application
 * To connect your own SendBird application go to the [SendBird dashboard.](https://dashboard.sendbird.com/)
 * Open an existing application or create a new one
-* From the dashboard copy the "App ID"
+* From the SendBird dashboard copy the "App ID"
 * In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
 * Replace the default "APP_ID" with your SendBird Application ID
 * Save the file
@@ -72,7 +72,7 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
           react-native run-android
           
 #### 12. Add a new user
-* Open the SendBird application on the emulated device and create a new user. 
+* Open the SendBird application on the emulated Android device and create a new user. 
 
 #### 13. View the new user
 * Navigate to the SendBird [dashboard](https://dashboard.sendbird.com/) click on "users" to view the newly create user. 
