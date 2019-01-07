@@ -31,38 +31,51 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 
         npm install -g react-native-cli
 
-3. Open Android Studio click "Open an existing Android Studio project" and navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird`.
+2. Open project
+* Start Android Studio click "Open an existing Android Studio project" 
+* Navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird`
+* Open the project
 
-2. Open the terminal in Android Studio(bottom left) and install the npm packages.
+3. Install dependencies
+* Open the terminal in Android Studio(bottom left) 
+* install the npm packages
 
         npm install
         
 
-3. Start a [new emulated device.](https://developer.android.com/studio/run/managing-avds) Whichever device you create, set it up with Oreo 27 as per React Native's requirements (this code was tested to work with a "Galaxy Nexus" device).
+4. Start emulated Android device
+* Start a [new emulated device.](https://developer.android.com/studio/run/managing-avds) 
+* Set the device up with Oreo 27 as per React Native's requirements.
+* This code was tested to work with a "Galaxy Nexus" device.
 
-5. Complete the emulator set up: 
-* Go to emulated device's "settings" and click "FINISH SETUP". Carefully complete the set up and don't forget to log in.
-* After setup completes, on the device [start developer mode.](https://developer.android.com/studio/debug/dev-options) 
+5. Complete device activation for development 
+* Go to emulated device's "settings" and click "FINISH SETUP". 
+* Carefully complete the set up and don't forget to log in.
+* On the emulated device [start developer mode.](https://developer.android.com/studio/debug/dev-options) 
 
-6. In Android Studio start the React Native compiler using the terminal.
+6. Install and start SendBird Android SDK
+* In Android Studio start the React Native compiler using the terminal.
 
         react-native run-android
         
-7. To connect your own SendBird application go to the SendBird dashboard open and existing application or create a new one.
-
-8. In your SendBird Application's dashboard copy the "App ID".
-
-9. In Android Studio navigate to ``src/sendbirdActions/user.js`` and replace the default "APP_ID" with your SendBird Application ID. Save the file.
-
-10. Terminate the Metro Bundler.
-
-11. In Android studio start the application again. 
+7. Connect your own SendBird Application
+* By default this SendBird application connects to a sample application
+* To connect your own SendBird application go to the [SendBird dashboard.](https://dashboard.sendbird.com/)
+* Open an existing application or create a new one
+* From the dashboard copy the "App ID"
+* In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
+* Replace the default "APP_ID" with your SendBird Application ID
+* Save the file
+* Terminate the Metro Bundler
+* Start the application again
           
           react-native run-android
           
-12. Open the SendBird application on the emulated device and create a new user. 
+12. Add a new user
+* Open the SendBird application on the emulated device and create a new user. 
 
-13. SendBird application [dashboard](https://dashboard.sendbird.com/) click on "users" to view the newly create user. 
+13. View the new user
+* Navigate to the SendBird [dashboard](https://dashboard.sendbird.com/) click on "users" to view the newly create user. 
 
 ## Run the sample - IOS
 
