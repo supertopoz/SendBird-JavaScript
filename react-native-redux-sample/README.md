@@ -60,9 +60,9 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
           
           react-native run-android
           
-12. Create a new user. 
+12. Open the SendBird application on the emulated device and create a new user. 
 
-13. Back in the SendBird application dashboard click on "users" to view the newly create user. 
+13. SendBird application [dashboard](https://dashboard.sendbird.com/) click on "users" to view the newly create user. 
 
 ## Run the sample - IOS
 
