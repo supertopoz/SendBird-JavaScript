@@ -53,7 +53,7 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 * Carefully complete the set up and don't forget to log in when prompted
 * On the emulated device [start developer mode.](https://developer.android.com/studio/debug/dev-options) 
 
-#### 6. Install and start SendBird Android SDK
+#### 6. Install and start SendBird Android React Native sample app with SDK
 * In Android Studio start the React Native compiler using the terminal
 
         react-native run-android
@@ -76,7 +76,7 @@ SendBird React-Native sample using [SendBird SDK](https://github.com/smilefam/Se
 #### 3. Make sure you xcode command line tools are installed
 * In Xcode "File" - "Preferences" - "Locations" - select the latest "Command Line Tools"
 
-#### 4. Open iPhone emulator and install SendBird React-Native application
+#### 4. Open iPhone emulator and install SendBird ios React Native sample app with SDK
 * Open a terminal
 * Navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird'
 * Run 
