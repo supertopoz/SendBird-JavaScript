@@ -97,34 +97,20 @@ Note: By default this SendBird application connects to a public sample applicati
 * Open an existing application or create a new one
 * From the SendBird dashboard copy the "App ID"
 
-#### 2. Application setup
+#### 2. Change application ID in the React Native application
 
-#### 3. Change application ID
-
-##### Android
-
-* In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
+* In your project navigate to ``src/sendbirdActions/user.js`` using Android Studio, Xcode or your own IDE
 * Replace the default "APP_ID" with your SendBird Application ID
 * Save the file
-
-##### Xcode - change application ID
-
-* In your project using Android Studio navigate to ``src/sendbirdActions/user.js`` 
-* Replace the default "APP_ID" with your SendBird Application ID
-* Save the file
-
-#### 4. Apply connection changes
-
-* If the Metro Bundler is running terminate it.
+* If needed terminate the Metro Bundler
 * Start the application again        
   - In Android Studio terminal ``react-native run-android``
   - In the regular terminal for Xcode navigate to `SendBird-JavaScript/react-native-redux-sample/ReactNativeWithSendBird/ios`  and run ``react-native run-ios``
 
-
-#### 5. Add a new user using SendBird React-Native App
+#### 3. Add a new user using SendBird React-Native App
 * Open the SendBird application in the emulated Android or ios device and create a new user
 
-#### 6. View the new user on the SendBird dashboard
+#### 4. View the new user on the SendBird dashboard
 * Navigate to the SendBird [dashboard](https://dashboard.sendbird.com/) click on "users" to view the newly create user
 
         
